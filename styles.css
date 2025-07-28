@@ -25,16 +25,6 @@ body {
     font-size: 14px;
 }
 
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icons a {
-    color: white;
-    text-decoration: none;
-}
-
 /* Logo Section */
 .logo-section {
     display: flex;
@@ -62,25 +52,6 @@ body {
     height: 90px;
     width: auto;
     max-width: 100%;
-}
-
-.taglines {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 20px;
-}
-
-.tagline {
-    display: flex;
-    align-items: center;
-    margin: 3px 0;
-}
-
-.tagline-dot {
-    color: #e65100;
-    font-size: 20px;
-    margin-right: 10px;
 }
 
 /* Main Navigation */
@@ -297,11 +268,6 @@ main {
     .top-bar, .logo-section {
         flex-direction: column;
         text-align: center;
-    }
-    
-    .social-icons {
-        margin-top: 10px;
-        justify-content: center;
     }
     
     .logo-container, .banner-container {
